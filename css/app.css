@@ -1,7 +1,7 @@
 /** BACKGROUND **/
 body {
 	width: 100wh;
-	height: 90vh;
+	height: 100vh;
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
@@ -49,15 +49,20 @@ body {
 
 .container {
 	background: #fff;
-	width: 96%;
-	margin: 2% auto 2% auto;
+	display: block;
+	width: 90%;
+	height: 94%;
+	margin: auto;
+	position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0; 
 }
 
 .wrapper {
 	width: 80%;
-	margin: 0em auto;
-	padding: 1em;
-	height: 80vh;
+	margin: auto; 
 }
 
 .wrapper-work {
@@ -82,7 +87,7 @@ h4 {
 
 h1 {
 	font-family: 'alternate-gothic-no-2-d', sans-serif;
-	font-size: 2.4em;
+	font-size: 2.6em;
 	color: #FE4E66;
 	margin: 0;
 	padding-top: 1em;
@@ -119,7 +124,7 @@ h1 {
 	background-color: #39ABFC;
 	border: none;
 	color: white;
-	padding: 1em 6em;
+	padding: 1em 5em;
 	text-align: center;
 	text-decoration: none;
 	display: block;
