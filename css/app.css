@@ -50,8 +50,8 @@ body {
 .container {
 	background: #fff;
 	display: block;
-	width: 90%;
-	height: 90%;
+	width: 90vw;
+	height: 90vh;
 	margin: auto;
 	position: absolute;
   left:0;
