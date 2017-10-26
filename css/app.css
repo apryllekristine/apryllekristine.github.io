@@ -52,7 +52,7 @@ body {
 	display: block;
 	width: 90vw;
 	height: 90vh;
-	margin: auto;
+	margin: 2em auto;
 	position: absolute;
   left:0;
   right: 0;
