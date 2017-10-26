@@ -71,6 +71,14 @@ body {
 	height: auto;
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		width: 80%;
+		height: 96%;
+}
+
 a {
 	text-decoration: none;
 	color: #FE4E66;
