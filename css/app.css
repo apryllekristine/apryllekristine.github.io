@@ -55,7 +55,8 @@ body {
 
 .wrapper {
 	width: 80%;
-	margin: 0 auto;
+	margin: 0em auto;
+	padding: 1em;
 	height: 90vh;
 }
 
@@ -81,14 +82,15 @@ h4 {
 
 h1 {
 	font-family: 'alternate-gothic-no-2-d', sans-serif;
-	font-size: 2em;
+	font-size: 2.4em;
 	color: #FE4E66;
-	padding-top: 1.2em;
+	margin: 0;
+	padding-top: 1em;
 }
 
 .typed-cursor{
 	font-weight: 100;
-	font-size: 1.5em;
+	font-size: 1em;
 	color: lightpink;
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
@@ -113,15 +115,14 @@ h1 {
 
 .button {
 	font-family: 'alternate-gothic-no-2-d', sans-serif;
+	font-size: 1.2em;
 	background-color: #39ABFC;
 	border: none;
 	color: white;
 	padding: 1em 6em;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
 	display: block;
-	font-size: 1em;
 }
 
 ul {
