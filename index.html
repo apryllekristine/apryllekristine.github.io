@@ -8,8 +8,10 @@
 		<meta name="keywords" content="aprylle, ricafort, aprylle ricafort, i am aprylle, web design, graphic design, websites, graphics, illustration, freelance, developer, letterer, maine, io, aprylle.io" />
 		<meta name="author" content="Aprylle Ricafort">
 		<title>APRYLLE.IO - Graphic Designer Portfolio</title>
-   
-    <link rel="stylesheet" href="css/app.css">
+   	
+   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    
     
     <!-- TYPEKIT: Alternate Gothic NO.2 D -->
     <script src="https://use.typekit.net/dqk3eim.js"></script>
@@ -23,9 +25,9 @@
 	<body>
 
 		<div class="container">
-			<div class="wrapper">
+			<div class="wrapper body-grid">
 				<section class="intro-par">
-					<h1>Hello, I'm <span class="element"></span></h1>
+					<h1><span class="element"></span></h1>
 					<p>I am a graphic and web designer based in Maine. With my skill set, I can find the right solution for you and your business. My main goal is to help enhance a business’ brand through innovative, attention-grabbing design.</p>
 				</section>
 
@@ -48,7 +50,7 @@
 		<script>
 			$(function(){
 					$(".element").typed({
-						strings: ["aprylle." ],
+						strings: ["Hello, I'm Aprylle." ],
 						typeSpeed: 100
 					});
 			});
