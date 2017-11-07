@@ -22,9 +22,22 @@
 		
   </head>
     
-    <body>
+  <body>
 		<div class="container-work">
 			<div class="wrapper">
+			
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+						<a href="index.html" alt="Aprylle Ricafort Portfolio">Home</a>
+						<a href="work.html" alt="Aprylle Ricafort Work Portfolio">Work</a>
+						<a href="contact.html" alt="Aprylle Ricafort Contact Page">Contact</a>
+						<a href="https://behance.net/aprylle" target="_blank" alt="Aprylle Ricafort Behance Portfolio">Behance Portfolio</a>
+					</div>
+				</div>
+
+				<span onclick="openNav()"><h3 class="menu">MENU</h3></span>
+				
 				<section class="grid work">
 					<h1 class="work-hd"><span class="element"></span></h1>
 					
@@ -35,38 +48,38 @@
 					<a role="button" class="lets-work" href="contact.html" alt="APRYLLE.IO Contact Page">Let's Work Together</a>
 					
 					<h4 class="tg-h4">I work with small and medium-sized businesses and agencies, building responsive websites, designing print materials for marketing, and creating custom lettering.</h4>
-				</section>
 
-
-				<section class="grid ">
 					<h3 class="tg-h3">If you’re feeling a little overwhelmed with the whole business website and marketing, I can help end that.</h3>
 					
 					<p>If you are a business, with my skill set, I can find the right solutions for you like creating a responsive website that your clients will love and keep going back to. I can make you the personalized, hand-lettered logo. Also, I design print materials perfect to market your business. My main goal is to help enhance a business’ brand through innovative, attention-grabbing design.</p>
 					
 					<p><strong>I love to collaborate.</strong> There is something about helping creative directors and fellow designers expand their creative ideas. If you are looking for someone to illustrate letters and words in ways that are out of the box, I’d love to work with you.</p>
-				</section>
-
-				<section class="grid grid-gallery gallery">
+					
+					<!-- DELETE THIS LATER
+					
 					<div class="box box1"><a href="#">Case Study: Club App</a></div>
 					<div class="box box2">UI</div>
 					<div class="box box3">Graphic Design</div>
 					<div class="box box4">Others</div>
+					
+					-->
+
+					<footer>
+						<p>Handcoded with <span>Love</span>. Hosted on <a href="#">Github</a>.</p>
+						<p>&copy;2018, Aprylle Ricafort, All Rights Reserved </p>
+						
+						<ul class="social">
+						 <li>
+								<a href="https://www.linkedin.com/in/aprylle-ricafort-18664767" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="http://instagram.com/aprylle_io" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+							</li>
+						</ul>
+					</footer>
+			
 				</section>
 
-				<a role="button" class="button lets-work" href="contact.html" alt="APRYLLE.IO Contact Page">Let's Work Together</a>
-
-				<footer>
-					<p>Handcoded with <span>Love</span>. Hosted on <a href="#">Github</a>.</p>
-					<ul class="social">
-							<li><a class="icon" href="https://instagram.com/aprylle_io" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a class="icon" href="https://www.linkedin.com/in/aprylle-ricafort-18664767" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a class="icon" href="https://instagram.com/aprylle_io" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a class="icon" href="https://instagram.com/aprylle_io" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							
-					</ul>
-					<p>&copy;2018, Aprylle Ricafort, All Rights Reserved </p>
-				</footer>
-			
 			</div>
 		</div>
 		
@@ -82,5 +95,19 @@
 					});
 			});
 		</script>
+		
+		<script type='text/javascript'>
+		(function(){ var widget_id = 'Snsxs3owHf';var d=document;var w=window;function l(){
+		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+		
+		<script>
+			function openNav() {
+					document.getElementById("myNav").style.width = "100%";
+			}
+			function closeNav() {
+					document.getElementById("myNav").style.width = "0%";
+			}
+		</script>
+
   </body>
 </html>
