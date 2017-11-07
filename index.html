@@ -26,6 +26,19 @@
 
 		<div class="container">
 			<div class="wrapper body-grid">
+				
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+						<a href="index.html" alt="Aprylle Ricafort Portfolio">Home</a>
+						<a href="work.html" alt="Aprylle Ricafort Work Portfolio">Work</a>
+						<a href="contact.html" alt="Aprylle Ricafort Contact Page">Contact</a>
+						<a href="https://behance.net/aprylle" target="_blank" alt="Aprylle Ricafort Behance Portfolio">Behance Portfolio</a>
+					</div>
+				</div>
+
+				<span onclick="openNav()"><h3 class="menu">MENU</h3></span>
+				
 				<section class="intro-par">
 					<h1><span class="element"></span></h1>
 					<p>I am a graphic and web designer based in Maine. With my skill set, I can find the right solution for you and your business. My main goal is to help enhance a business’ brand through innovative, attention-grabbing design.</p>
@@ -46,7 +59,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/typed.js"></script>
 		
-		<!--Typewriter Effect-->
 		<script>
 			$(function(){
 					$(".element").typed({
@@ -54,6 +66,20 @@
 						typeSpeed: 100
 					});
 			});
+		</script>
+
+			<script type='text/javascript'>
+			(function(){ var widget_id = 'Snsxs3owHf';var d=document;var w=window;function l(){
+			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+
+
+		<script>
+			function openNav() {
+					document.getElementById("myNav").style.width = "100%";
+			}
+			function closeNav() {
+					document.getElementById("myNav").style.width = "0%";
+			}
 		</script>
 	</body>
 
