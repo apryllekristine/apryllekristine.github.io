@@ -10,49 +10,69 @@
 		<title>APRYLLE.IO - Graphic Designer Portfolio</title>
    
     <link rel="stylesheet" href="css/app.css">
-    
-    <!-- TYPEKIT: Alternate Gothic NO.2 D -->
     <script src="https://use.typekit.net/dqk3eim.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-		
-		<!-- Font Awesome -->
 		<script src="https://use.fontawesome.com/635ced8f88.js"></script>
 		
   </head>
 
 <body>
+   
     
-    <div class="container">
-       <div class="wrapper-work">
+    <div class="container-work">
+       <div class="wrapper">
+
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+						<a href="index.html" alt="Aprylle Ricafort Portfolio">Home</a>
+						<a href="work.html" alt="Aprylle Ricafort Work Portfolio">Work</a>
+						<a href="contact.html" alt="Aprylle Ricafort Contact Page">Contact</a>
+						<a href="https://behance.net/aprylle" target="_blank" alt="Aprylle Ricafort Behance Portfolio">Behance Portfolio</a>
+					</div>
+				</div>
+
+				<span onclick="openNav()"><h3 class="menu">MENU</h3></span>
+       
         <section class="intro-hello">
             <h1>Let's Work Together!</h1>
             <p>Thank you for your interest in working with me. Please use the form below to kick things off. I promise to get back to you.</p>
         </section>
     
-    
-<!-- Typeform Start -->
         <section class="form">
             <div class="typeform-widget" data-url="https://aprylle.typeform.com/to/IMID5t" style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com/examples/?utm_campaign=IMID5t&amp;utm_source=typeform.com-10708552-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a>
             </div>
         </section>
-<!-- Typeform End -->
-  
-         <p>Once you’ve completed the form, feel free to do some more <strong>research on me</strong>
-         </p> 
     
-    </div>
-    <footer>
-        <p>Handcoded with Love.</p>
-        <p>Hosted on <a href="#">Github</a>.</p>
-        <ul class="social">
-            <li>..</li>
-            <li>..</li>
-            <li>..</li>
-        </ul>
-        <p>&copy;2018, Aprylle Ricafort, All Rights Reserved </p>
-    </footer>
+				<footer>
+					<p>Handcoded with <span>Love</span>. Hosted on <a href="#">Github</a>.</p>
+					<p>&copy;2018, Aprylle Ricafort, All Rights Reserved </p>
+						<ul class="social">
+						 <li>
+								<a href="https://www.linkedin.com/in/aprylle-ricafort-18664767" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="http://instagram.com/aprylle_io" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+							</li>
+						</ul>
+				</footer>
+			</div>
 	</div>
 	
+		<!-- BEGIN JIVOSITE CODE {literal} -->
+			<script type='text/javascript'>
+			(function(){ var widget_id = 'Snsxs3owHf';var d=document;var w=window;function l(){
+			var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+		<!-- {/literal} END JIVOSITE CODE -->
+
+		<script>
+			function openNav() {
+					document.getElementById("myNav").style.width = "100%";
+			}
+			function closeNav() {
+					document.getElementById("myNav").style.width = "0%";
+			}
+		</script>
 </body>
 
 
